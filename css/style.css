@@ -1,0 +1,285 @@
+/*
+Theme Name: BISNIS INSTAN
+Theme URI: http://eureka.id/
+Author: Acit Jazz
+Author URI: http://eureka.id/
+Version: 1.0
+Tags:
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+* {
+	outline:none !important;
+	font-family: 'Roboto', sans-serif;
+}
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../images/status.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+a {
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+a:active,a:focus,a:visited{
+	text-decoration:none;
+}
+/* ================= HEADER  ==================== */
+.fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index:10;
+}
+.header{
+	background:#333;
+	color:#fff;
+}
+.logo{
+	float:left;
+}
+#features{
+	background:#e23720;
+	text-align:center;
+}
+#main-content{
+	text-align:center;
+}
+#main-content img,#features img{
+	max-width:1280px;
+	width:100%;
+}
+/* ================= SLIDER  ==================== */
+.slider-wrapper {
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	background:#1b1b1b;
+}
+.slider {
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	background:#1b1b1b;
+}
+#slider{
+	position:relative;
+}
+.slidecontent{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	color:#fff;
+	top:50%;
+}
+.slidecontent h3{
+	font-size:30px;
+	line-height:1.4;
+	font-weight:700;
+}
+#slider img{
+	width:100%; height:auto;
+}
+.scrolldown{
+	font-size:50px;
+}
+.scrolldown:hover{
+	text-decoration:none;
+}
+/* ================= NAVIGATION  ==================== */
+#header .navbar{
+	float:right;
+	width:auto;
+	margin:0;
+	border-radius:0;
+}
+.nav-collapse, .nav-collapse * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius:0;
+}
+.nav-collapse, .nav-collapse ul {
+	list-style: none;
+	width: 100%;
+	float: left;
+	border-radius:0;
+}
+.nav-collapse li {
+	float:left;
+	display:inline-block;
+	width:auto;
+	padding:0 0 0 0;
+}
+.nav-collapse a {
+	color: #fff;
+	display:inline-block;
+	padding:45px 20px 0 20px;
+	text-transform:uppercase;
+	font-family: 'Roboto', sans-serif;
+	line-height:53px;
+}
+.nav-collapse a:hover{
+	text-decoration:none;
+	background:#e23720;
+	border-radius:0;
+}
+.nav-toggle {
+	position: fixed;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	text-indent: -999px;
+	position: relative;
+	overflow: hidden;
+	width: 70px;
+	height: 45px;
+	float: right;
+}
+.nav-toggle:before {
+	color: #f4421a; /* Edit this to change the icon color */
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 28px;
+	text-transform: none;
+	position: absolute;
+	content: "MENU";
+	text-indent: 0;
+	text-align: center;
+	line-height: 55px;
+	speak: none;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+ .nav-toggle.active::before {
+ font-size: 24px;
+ content:"x";
+}
+/* ================= TAB  ==================== */
+.tabs {
+	border-radius: 4px;
+	margin-bottom: 35px;
+}
+.nav-tabs {
+	margin: 0 !important;
+	font-size: 0;
+	border-bottom-color: #EEE;
+}
+.nav-tabs li {
+	display: inline-block;
+	float: none;
+	margin:0 !important;
+}
+.nav-tabs li:last-child a {
+	margin-right: 0;
+}
+.nav-tabs li a {
+	border-radius: 5px 5px 0 0;
+	font-size: 14px;
+	margin-right: 1px;
+}
+.nav-tabs li a, .nav-tabs li a:hover {
+	background: #F4F4F4;
+	border-bottom: none;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	border-top: 3px solid #EEE;
+	color: #333;
+}
+.nav-tabs li a:hover {
+	border-bottom-color: transparent;
+	border-top: 3px solid #f15a24;
+	box-shadow: none;
+}
+.nav-tabs li a:active, .nav-tabs li a:focus {
+	border-bottom: 0;
+}
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
+	background: #FFF;
+	border-left-color: #EEE;
+	border-right-color: #EEE;
+	border-top: 3px solid #f15a24;
+	color: #333;
+}
+.tab-content {
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+	background-color: #FFF;
+	border: 1px solid #EEE;
+	border-top: 0;
+	padding: 15px;
+}
+/* ================= CAROUSEL  ==================== */
+.carousel {
+	margin:0 0 50px 0;
+}
+.carousel-control {
+	background:none;
+	background-image:none !important;
+}
+.carousel-control .glyphicon {
+	background:rgba(0, 0, 0, .6);
+	border-radius:100px;
+}
+.glyphicon-chevron-left:before {
+	content: "\ea6c";
+}
+.glyphicon-chevron-right:before {
+	content: "\ea6d";
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	display:inline-block;
+}
+.carousel-indicators {
+	left:0;
+	width:100%;
+	text-align:center;
+	bottom:-30px;
+	margin:0 !important;
+}
+.carousel-indicators li {
+	border:1px solid #333;
+	display:inline-block;
+	margin:0 3px !important;
+}
+.carousel-indicators .active {
+	width:10px;
+	height:10px;
+	background:#333;
+}
+.carousel-indicators li:hover {
+	background:#333;
+}
+/* ================= COLLAPSE ACCORDION  ==================== */
+.panel-title>a {
+	display:block;
+}
+.flex-control-paging li a.flex-active, .flex-control-paging li a:hover {
+	background:#f15a24;
+}

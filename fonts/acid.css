@@ -1,0 +1,47 @@
+
+@font-face {
+font-family: 'Acid Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Acid Medium'), url('acid_medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Acid';
+font-style: normal;
+font-weight: normal;
+src: local('Acid'), url('acid.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Acid Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Acid Bold Italic'), url('acid_bold_italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Acid Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Acid Bold'), url('acid_bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Acid Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Acid Italic'), url('acid_italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Acid Medium Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Acid Medium Italic'), url('acid_medium_italic.woff') format('woff');
+}

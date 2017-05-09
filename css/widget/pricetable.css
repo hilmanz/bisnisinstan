@@ -1,0 +1,167 @@
+.pricetable-clear{
+	clear:both;
+	position:absolute;
+	height:16px;
+	width:100%;
+	bottom:0;
+}
+
+.pricetable{
+	position:relative;
+	margin:50px auto;
+}
+.pricetable p{
+	margin:0;
+}
+.pricetable-subtitle{
+	padding: 10px 0;
+	border-bottom: solid 1px #ddd;
+	background: #eee;
+	color:#333;
+	text-align:center;
+}
+.pricetable-subtitle p{
+	font-size:18px;
+}
+.pricetable .pricetable-inner{
+	position: relative;
+	display:table;
+	width:100%;
+	color:#949494;
+}
+
+.pricetable .pricetable-column{
+	float: left;
+	line-height: 1em;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.pricetable-featured{
+	position:relative;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-column-inner{
+	position:relative;
+	background: rgba(179, 193, 53, 1);
+	background: -moz-linear-gradient(left, rgba(179, 193, 53, 1) 0%, rgba(5, 161, 188, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179, 193, 53, 1)), color-stop(100%, rgba(5, 161, 188, 1)));
+	background: -webkit-linear-gradient(left, rgba(179, 193, 53, 1) 0%, rgba(5, 161, 188, 1) 100%);
+	background: -o-linear-gradient(left, rgba(179, 193, 53, 1) 0%, rgba(5, 161, 188, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(179, 193, 53, 1) 0%, rgba(5, 161, 188, 1) 100%);
+	background: linear-gradient(to right, rgba(179, 193, 53, 1) 0%, rgba(5, 161, 188, 1) 100%);
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3c135', endColorstr='#05a1bc', GradientType=1 );
+	 color:#fff;
+}
+.best-value{
+	display:none;
+}
+.pricetable .pricetable-column.pricetable-featured .best-value{
+	display:block;
+	padding:5px;
+	text-align:right;
+	position:absolute;
+	bottom:-30px;
+	right:10px;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-price{
+}
+.pricetable .pricetable-column.pricetable-featured h3.pricetable-name{
+	color:#fff !important;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-header{
+}
+
+/* @group Borders */
+.pricetable .pricetable-column.pricetable-standard.pricetable-last,
+.pricetable .pricetable-column.pricetable-standard.pricetable-before-featured{
+	border-right: none;
+	padding:0 10px;
+}
+.pricetable-column-inner{
+	background:#fff;
+	border:solid 1px #e3e3e3;
+	position:relative;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding:0 20px;
+}
+.pricetable-column-inner:hover{
+	background:#f6f6f6;
+}
+.pricetable .pricetable-feature p.pricetable-feature-desc{
+	font-size:12px;
+}
+.pricetable .pricetable-feature p.pricetable-feature-title{
+	font-size:16px;
+}
+/* @group Headers */
+
+.pricetable h4.pricetable-price{
+	font-size: 40px;
+	padding: 5px 0;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	top: -30px;
+	border-radius: 10px;
+}
+.pricetable h3.pricetable-name{
+	margin: 0 0 0 0 !important;
+	padding:10px;
+	font-size:32px;
+	line-height:40px;
+	text-align: center;
+	color:#fff;
+	text-transform:uppercase;
+	border-bottom:solid 1px #ddd;
+}
+.pricetable .pricetable-header{
+	text-align:center;
+	position:relative;
+	z-index:10;
+}
+.pricetable .pricetable-header p{
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Features */
+
+.pricetable .pricetable-features{
+	position: relative;
+}
+
+.pricetable .pricetable-feature {
+	position: relative;
+	padding: 15px 0;
+	text-align:center;
+	font-size:14px;
+	border-bottom:solid 1px #e3e3e3;
+}
+
+/* @end */
+
+/* @group Button */
+.pricetable-button{
+	padding:20px 0;
+	clear:both;
+	text-align:center;
+}
+.pricetable-button .button{
+	background:#f4f4f4;
+	border:solid 1px #ddd;
+	color:#777;
+}
+.pricetable br{
+    display: none;
+}
+
+/* @end */
